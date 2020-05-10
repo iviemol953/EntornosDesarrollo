@@ -32,9 +32,14 @@ public class Biblioteca {
         total++; 
         mediaPrecios+=libro2.devuelvePrecio();
         
+        Libro libro3=new Libro(3,"Miedo","Stefan Zweig","Acantilado","08/01/2018",11.40f);
+        total++; 
+        mediaPrecios+=libro2.devuelvePrecio();
+        
         System.out.println("*************** LISTADO DE LIBROS ******************");
         System.out.println(libro1.mostrarLibro());
         System.out.println(libro2.mostrarLibro());
+        System.out.println(libro3.mostrarLibro());
 
         System.out.println("****************************************************");
         System.out.println("Has comprado en total "+ total+ " libros.");
