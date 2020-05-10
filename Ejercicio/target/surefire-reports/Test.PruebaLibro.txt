@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Test.PruebaLibro
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 2.14 s <<< FAILURE! - in Test.PruebaLibro
+cuentaIguales{int}[1]  Time elapsed: 0.031 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at Test.PruebaLibro.cuentaIguales(PruebaLibro.java:136)
+
+cuentaIguales{int}[3]  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at Test.PruebaLibro.cuentaIguales(PruebaLibro.java:136)
+
+cuentaIguales{int}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <4>
+	at Test.PruebaLibro.cuentaIguales(PruebaLibro.java:136)
+
+cuentaIguales{int}[5]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <5>
+	at Test.PruebaLibro.cuentaIguales(PruebaLibro.java:136)
+
+precioNulo  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Los libros no son gratuitos. ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at Test.PruebaLibro.precioNulo(PruebaLibro.java:117)
+
